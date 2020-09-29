@@ -1,0 +1,144 @@
+body{
+    background-image: url("img/fondoMadera1.jpg");
+}
+.tablero{
+    width: 1400px;
+    height: 600px;
+}
+
+.jugador{
+    border: 5px groove #281916;
+    border-radius: 20px  ;
+    width: 500px;
+    height: 550px;
+    float: left;
+    background-image: url("img/tapizVerde1.jpg");
+}
+
+.elegirCarta{
+    height: 260px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mano{
+    height: 260px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    visibility: hidden;
+}
+
+.almacenJugador{
+    height: 120px;
+    margin-left: 30px;
+}
+
+.almacenJugador img{
+    height: 100px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.banca{
+    border: 5px groove #281916;    border-radius: 20px;
+    width: 500px;
+    height: 550px;
+    float: left;
+    background-image: url("img/tapizVerde1.jpg");
+
+}
+
+.elegirCartaBanca{
+    height: 260px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.manoBanca{
+    height: 260px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    visibility: hidden;
+}
+
+.almacenBanca{
+    height: 120px;
+    margin-left: 30px;
+}
+
+.almacenBanca img{
+    height: 100px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.interaccion{
+    border: 5px groove #281916;
+    border-radius: 20px;
+    width: 200px;
+    height: 260px;
+    float: left;
+    background-image: url("img/tapizVerde1.jpg");
+
+}
+
+.puntuajeJugador{
+   display: inline-flex;
+    
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.puntuajeBanca{
+    display: inline-flex;
+    border: #281916 2px groove;
+    
+    width: 200px;
+    height: 97px;
+}
+
+
+.puntosJugador{
+    margin-top: 13px;
+    width: 20px;
+    height: 20px;
+    border-width: 0px;
+    background-image: url("img/tapizVerde1.jpg");
+
+}
+.puntosBanca{
+    margin-top: 12px;
+    width: 20px;
+    height: 20px;
+    border-width: 0px;
+    background-image: url("img/tapizVerde1.jpg");
+}
+
+.botones{
+    width: 200px;
+    height: 59px;
+    border-radius: 20px;
+}
+
+.plantar{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.veredicto{
+    width: 120px;
+    margin-left: 33px;
+    color: ivory;
+    font-size: 17px;
+    margin-top: 2px;
+    border-width: 0px;
+    background-image: url("img/tapizVerde1.jpg");
+}
+

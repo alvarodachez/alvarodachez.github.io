@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Cartas 7.5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="tablero" class="tablero">
+        <div id="jugador" class="jugador">
+            <img id="elegirCarta" class="elegirCarta" src="img/trasera_jug.jpg">
+            <img id="mano" class="mano" src="">
+
+            <div id="almacenJugador" class="almacenJugador">
+               
+            </div>
+        </div>
+        <div id="banca" class="banca">
+            <img id="elegirCartaBanca" class="elegirCartaBanca" src="img/trasera.jpg">
+            <img id="manoBanca" class="manoBanca" src="">
+
+            <div id="almacenBanca" class="almacenBanca">
+               
+            </div>
+        </div>
+        <div id="interaccion" class="interaccion">
+            <div id="puntuajeJugador" class="puntuajeJugador">
+                <p>Puntos Jugador: </p>
+                <input id="puntosJugador" class="puntosJugador" type="text">
+            </div>
+            <div id="puntuajeBanca" class="puntuajeBanca">
+                <p>Puntos Banca: </p>
+                <input id="puntosBanca" class="puntosBanca" type="text">
+            </div>
+            <div id="botones" class="botones">
+                <button id="plantar" class="plantar">Me Planto</button>
+                <button id="reiniciar" class="reiniciar">Reiniciar</button>
+                <input id="veredicto" class="veredicto" type="text">
+            </div>
+        </div>
+        
+    </div>
+    
+    
+</body>
+<script src="scripts.js"></script>
+</html>
